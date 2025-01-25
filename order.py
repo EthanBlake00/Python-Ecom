@@ -21,3 +21,4 @@ class Order:
         for product in self.products:
             summary += f"-{product.get_details()}\n"
         summary += f"Total: Rs{self.total}"
+        return summary
