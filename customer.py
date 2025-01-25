@@ -4,5 +4,5 @@ class Customer:
         self.address = address
         self.contact = contact
 
-    def __str__(self):
+    def get_details(self):
         return f"Name {self.name}, Address {self.address}, Contact ${self.contact}"
